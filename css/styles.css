@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.Container-fluid{
+    padding: 3% 15% 10%;
+}
+
+#cta{   
+    padding: 5%;
+    font-family: 'Montserrat-Black', sans-serif;
+    
+    color: #fff;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.cta-heading{
+    font-family: 'Montserrat-Black', sans-serif;;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    padding: 10px 20px;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+
+}
+
+.pricing-column{
+    padding: 3% 2%;
+
+}
+
+.title-img{
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1000px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+    }
+    .title-img:hover{
+        transform: rotate(0);
+    }
+}
+@media (min-width: 1000px) {
+    .title-img:hover{
+        transform: rotate(25deg);
+    }
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.testimonial-image{
+    width: 10%;
+    margin: 20px;
+    border-radius: 50%;
+}
